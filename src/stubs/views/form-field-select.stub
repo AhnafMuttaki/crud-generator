@@ -1,0 +1,5 @@
+        <div class="form-group">
+            {{ Form::label('{{column}}') }}
+            {{Form::select('{{column}}', {{title}}, ${{modelNameLowerCase}}->{{column}}, ['placeholder' => 'Select','class'=>'form-control'])}}
+            {!! $errors->first('{{column}}', '<div class="invalid-feedback">:message</div>') !!}
+        </div>
