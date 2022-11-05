@@ -2,7 +2,8 @@ This Laravel Generator package provides and generate Controller, Model (with elo
 
 - Will create **Model** with Eloquent relations
 - Will create **Controller** with all resources
-- Will create **views** in Bootstrap
+- Will create **views** in Bootstrap 
+- It will also handle foreign key constraints and show select input in crud forms for foriegn key fields 
 
 ## Requirements
     Laravel >= 5.5
